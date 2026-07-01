@@ -38,6 +38,26 @@ export function Hero() {
           </motion.p>
           
           <motion.div 
+            className="grid grid-cols-2 gap-2 mb-8 lg:hidden"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
+          >
+             <div className="bg-[#121212] aspect-[4/3] overflow-hidden rounded-sm border border-[#2A2A2A]">
+               <img src="/1.png" alt="Cartel neon" className="w-full h-full object-cover opacity-90" />
+             </div>
+             <div className="bg-[#1A1A1A] aspect-[4/3] overflow-hidden rounded-sm border border-[#2A2A2A]">
+               <img src="/2.png" alt="Vidriera" className="w-full h-full object-cover opacity-90" />
+             </div>
+             <div className="bg-[#0F0F0F] aspect-[4/3] overflow-hidden rounded-sm border border-[#2A2A2A]">
+               <img src="/3.png" alt="Estampado" className="w-full h-full object-cover opacity-90" />
+             </div>
+             <div className="bg-[#141414] aspect-[4/3] overflow-hidden rounded-sm border border-[#2A2A2A]">
+               <img src="/4.png" alt="Vehiculo" className="w-full h-full object-cover opacity-90" />
+             </div>
+          </motion.div>
+          
+          <motion.div 
             className="flex flex-col sm:flex-row gap-4 w-full"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
