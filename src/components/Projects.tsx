@@ -5,7 +5,7 @@ export function Projects() {
   return (
     <section id="proyectos" className="py-24 bg-[#141414] border-t border-[#2A2A2A]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-        <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div className="mb-12 flex flex-col md:flex-row items-start md:items-end justify-between gap-6">
           <div>
             <div className="inline-block px-2 py-1 bg-[#222] text-[#FF5F1F] text-[10px] font-bold uppercase mb-4 tracking-widest border border-[#333]">
               Galería

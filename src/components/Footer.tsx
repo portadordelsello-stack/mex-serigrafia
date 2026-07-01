@@ -2,18 +2,17 @@ import { Instagram, MapPin, Phone } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-[#FF5F1F] text-black" id="contacto">
+    <footer className="bg-[#FD5315] text-black" id="contacto">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-baseline space-x-2 mb-6">
-              <h1 className="text-4xl font-black tracking-tighter uppercase" style={{ WebkitTextStroke: '1.5px black' }}>
-                <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#39FF14] to-[#84cc16] font-['Jost',sans-serif]">M</span>
-                <span className="text-[#FFFF00] font-['Jost',sans-serif]">E</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff8c00] to-[#dc2626] font-['Jost',sans-serif]">X</span>
-                <span className="text-white ml-2 italic font-['Inter',sans-serif]">Grafica</span>
-              </h1>
+              <img 
+                src="/logo-footer.jpg" 
+                alt="Mex Grafica" 
+                className="h-12 md:h-16 w-auto object-contain"
+              />
             </div>
             <p className="font-medium max-w-sm text-sm">
               Especialistas en publicidad visual, rotulación y serigrafía textil en Santa Fe, Argentina. Transformamos espacios comerciales con calidad premium.

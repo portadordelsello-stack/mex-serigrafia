@@ -22,8 +22,8 @@ export function Header() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-[#0F0F0F]/90 backdrop-blur-md border-b border-[#2A2A2A] py-3" : "bg-transparent py-6 border-b border-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-10 flex justify-between items-center">
-        <div className="flex items-baseline space-x-2">
-          <h1 className="text-3xl font-black tracking-tighter uppercase">
+        <div className="flex items-baseline space-x-1 sm:space-x-2">
+          <h1 className="text-2xl sm:text-3xl font-black tracking-tighter uppercase">
             <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#39FF14] to-[#84cc16] font-['Jost',sans-serif]">M</span>
             <span className="text-[#FFFF00] font-['Jost',sans-serif]">E</span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff8c00] to-[#dc2626] font-['Jost',sans-serif]">X</span>

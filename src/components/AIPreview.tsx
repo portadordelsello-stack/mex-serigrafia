@@ -85,7 +85,7 @@ export function AIPreview() {
   return (
     <section id="visualizador" className="py-24 bg-[#1A1A1A] border-t border-[#2A2A2A]">
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <h3 className="text-xl md:text-3xl font-black uppercase italic tracking-tighter text-[#FBFBFB]">AI Visualizer</h3>

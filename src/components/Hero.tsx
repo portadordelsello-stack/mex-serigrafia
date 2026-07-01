@@ -20,7 +20,7 @@ export function Hero() {
           </motion.div>
           
           <motion.h1 
-            className="text-6xl md:text-8xl font-black text-[#FBFBFB] leading-[0.9] tracking-tighter mb-6 uppercase italic"
+            className="text-5xl sm:text-6xl md:text-8xl font-black text-[#FBFBFB] leading-[0.9] tracking-tighter mb-6 uppercase italic"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -38,15 +38,15 @@ export function Hero() {
           </motion.p>
           
           <motion.div 
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 w-full"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <a href="#contacto" className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#3AF10A] via-[#FFFF00] to-[#dc2626] hover:opacity-90 text-black px-8 py-4 font-black uppercase text-[10px] tracking-widest transition-all">
+            <a href="#contacto" className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#3AF10A] via-[#FFFF00] to-[#dc2626] hover:opacity-90 text-black px-6 sm:px-8 py-4 font-black uppercase text-[10px] tracking-widest transition-all text-center w-full sm:w-auto">
               Solicitar Presupuesto <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="#visualizador" className="flex items-center justify-center gap-2 bg-transparent hover:bg-[#222] text-[#FBFBFB] px-8 py-4 font-black uppercase text-[10px] tracking-widest transition-all border border-[#2A2A2A]">
+            <a href="#visualizador" className="flex items-center justify-center gap-2 bg-transparent hover:bg-[#222] text-[#FBFBFB] px-6 sm:px-8 py-4 font-black uppercase text-[10px] tracking-widest transition-all border border-[#2A2A2A] text-center w-full sm:w-auto">
               Probar IA Visualizador
             </a>
           </motion.div>
