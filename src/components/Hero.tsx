@@ -63,16 +63,16 @@ export function Hero() {
           </div>
           <div className="relative z-10 grid grid-cols-2 gap-px bg-[#2A2A2A] border border-[#2A2A2A]">
              <div className="bg-[#121212] aspect-square overflow-hidden group">
-               <img src="https://images.unsplash.com/photo-1558235221-5f2122616b43?w=500&auto=format&fit=crop&q=80" alt="Cartel neon" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
+               <img src="/1.png" alt="Cartel neon" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
              </div>
              <div className="bg-[#1A1A1A] aspect-square overflow-hidden group">
-               <img src="https://images.unsplash.com/photo-1601662528567-526cd06f6582?w=500&auto=format&fit=crop&q=80" alt="Vidriera" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
+               <img src="/2.png" alt="Vidriera" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
              </div>
              <div className="bg-[#0F0F0F] aspect-square overflow-hidden group">
-               <img src="https://images.unsplash.com/photo-1529336953128-a85760f58cb5?w=500&auto=format&fit=crop&q=80" alt="Estampado" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
+               <img src="/3.png" alt="Estampado" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
              </div>
              <div className="bg-[#141414] aspect-square overflow-hidden group">
-               <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=500&auto=format&fit=crop&q=80" alt="Vehiculo" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
+               <img src="/4.png" alt="Vehiculo" className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity mix-blend-luminosity hover:mix-blend-normal" />
              </div>
           </div>
         </motion.div>

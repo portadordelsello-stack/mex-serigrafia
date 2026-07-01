@@ -19,7 +19,7 @@ export function Projects() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#2A2A2A] border border-[#2A2A2A]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {PROJECTS.map((project, index) => (
             <motion.div
               key={project.id}
@@ -27,22 +27,16 @@ export function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative bg-[#0F0F0F] aspect-[4/3] overflow-hidden"
+              className="flex justify-center"
             >
-              <img 
-                src={project.imageUrl} 
-                alt={project.title} 
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 mix-blend-luminosity group-hover:mix-blend-normal group-hover:opacity-100"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0F0F0F] via-[#0F0F0F]/50 to-transparent pointer-events-none opacity-80 group-hover:opacity-60 transition-opacity"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
-                <span className="text-[#FF5F1F] font-bold text-[10px] tracking-widest uppercase mb-2 block">
-                  {project.category}
-                </span>
-                <h3 className="text-[#FBFBFB] text-lg font-black uppercase italic leading-tight">
-                  {project.title}
-                </h3>
-              </div>
+              <iframe
+                src={`${project.instagramUrl}/embed`}
+                className="w-full max-w-[320px] h-[540px] border-none rounded-lg overflow-hidden bg-white"
+                scrolling="no"
+                allowTransparency={true}
+                allow="encrypted-media"
+                title={project.title}
+              ></iframe>
             </motion.div>
           ))}
         </div>
